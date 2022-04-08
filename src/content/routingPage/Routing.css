@@ -1,0 +1,203 @@
+.header p {
+  font-size: 12px;
+}
+.header h3 {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+.header {
+  width: 100%;
+}
+.dashboard {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #edf0f4;
+}
+.dashInner {
+  padding-left: 20px !important;
+}
+.calenderDiv {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.calender img {
+  width: 198px;
+  height: 74px;
+  opacity: 1;
+  margin-right: 40px;
+  margin-top: 5px;
+}
+.cards {
+  width: 352px;
+  height: 52px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 2px #00000029;
+  border: 0.4000000059604645px solid #cfd6e5;
+  border-radius: 8px;
+  opacity: 1;
+}
+.cardbody {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #141414;
+  height: 21px;
+  opacity: 1;
+  padding: 5px;
+  padding-left: 15px;
+}
+.Linecards {
+  width: 260px;
+  height: 120px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 1px #00000029;
+  border-radius: 8px;
+  opacity: 1;
+  margin: 10px;
+  padding: 10px;
+}
+.Divcards {
+  width: 100%;
+}
+.Divbody {
+  width: 100%;
+}
+.ImgIcon {
+  width: 25px;
+  height: 25px;
+}
+.cardHead {
+  width: 102px;
+  height: 24px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #2b2b2b;
+  opacity: 1;
+  margin-left: 10px;
+}
+.Spanhead {
+  width: 31px;
+  height: 19px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #4d5061;
+  opacity: 1;
+}
+.SpanValue {
+  margin-left: 10px;
+  width: 82px;
+  height: 24px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #1f2439;
+  opacity: 1;
+  font-weight: 600;
+}
+.SpanValue2 {
+  margin-left: 38px;
+  width: 82px;
+  height: 24px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #1f2439;
+  opacity: 1;
+  font-weight: 600;
+}
+.cardIn {
+  margin-left: 35px;
+  margin-top: 10px;
+}
+.cardIn p {
+  margin-top: 4px;
+}
+.arcs {
+  width: 100px;
+}
+.pie {
+  width: 580px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  margin: 20px;
+}
+.summary {
+  width: 1198px;
+  background: #d5e3ff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 1px #00000029;
+  border-radius: 8px;
+  opacity: 1;
+  margin-right: 25px;
+}
+.summarydiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sumCard p {
+  text-align: left;
+  font: 14px/19px;
+  letter-spacing: 0px;
+  color: #7b7c89;
+  opacity: 1;
+  margin: 8px;
+}
+.sumCard {
+  width: 150px;
+  height: 70px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 1px #00000029;
+  border-radius: 8px;
+  opacity: 1;
+}
+.sumCard h5 {
+  letter-spacing: 0px;
+  color: #7b7c89;
+  opacity: 1;
+  margin: 8px;
+}
+.sumCard span {
+  color: #141414;
+  margin-left: 5px;
+}
+.columnDiv {
+  width: fit-content;
+  padding: 0;
+}
+.dummyPage {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orange {
+  background-color: #ffa741 !important;
+  border-radius: 20px 20px 0 0;
+}
+.black {
+  background-color: #1f2439 !important;
+  border-radius: 0 0 20px 20px;
+  color: white;
+}
+.table {
+  width: 198px !important;
+  height: 74px !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .pie img {
+    width: 355px;
+    height: 197px;
+  }
+  .calender {
+    display: flex;
+    justify-content: center;
+  }
+  .summary {
+    width: 100%;
+  }
+}
